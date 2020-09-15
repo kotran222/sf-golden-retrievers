@@ -1,0 +1,28 @@
+/* DOG PRODUCT CSS */
+
+/* Page Header */
+.page_header{
+    text-align: center;
+
+}
+
+.round_container{
+    display: grid;
+    grid-template-areas:
+        'none circle none';
+}
+
+.circle{
+    grid-area: circle;
+    height: 250px;
+    width: 250px;
+    background-color: #485063;
+    background-position: center;
+    border-radius: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
