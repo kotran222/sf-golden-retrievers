@@ -9,3 +9,7 @@ function closeSlideMenu(){
     document.getElementById('side-menu').style.width = '0';
     document.getElementById('main').style.marginRight = '0';
 }
+
+$(function(){
+    $("#nav-placeholder").load("sub_tabs/navigation.html");
+  });
