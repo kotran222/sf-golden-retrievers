@@ -56,9 +56,9 @@
 .left-box{
     grid-area: left-box;
     min-width: 250px;
-    height: 375px;
+    height: 410px;
     background-position: center;
-    padding: 3rem;
+    padding: 2rem;
 
     display: flex;
     flex-direction: column;
