@@ -23,8 +23,11 @@
             <div id="nav-placeholder"></div>
             <script>
                 // Place Holder for navigation bar
-                $(function(){
-                    $("#nav-placeholder").load("navigation.html");
+                // $(function(){
+                //     $("#nav-placeholder").load("navigation.html");
+                // });
+                $.get("navigation.html", function(data){
+                    $("#nav-placeholder").replaceWith(data);
                 });
             </script>
 
